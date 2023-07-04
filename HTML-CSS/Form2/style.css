@@ -3,7 +3,7 @@
     padding: 0;
 }
 body{
-    background-size: 280%;
+    background-size: 100%;
     background-position: -400px 0px;
     background-image: linear-gradient(#7077b9,#e772e5);
 }
@@ -58,7 +58,9 @@ label{
     
 }
 #submit{
-    margin-bottom: 100%;
+    margin-bottom: 50px;
     padding-bottom: 20px;
-
-}
+    margin-left: 40px;
+    padding: 2px;
+    border-radius: 5px;
+   }
