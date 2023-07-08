@@ -1,0 +1,51 @@
+h2{
+    color: white;
+}
+.main{
+    background-color: #d25360;
+    margin: 0px 20px;
+}
+li{
+    padding: 8px;
+    margin-left: 15px;
+    color: white;
+    
+}
+
+.container-fluid1{
+    text-align: left;
+    margin: 0px 20px;
+}
+.Gallary{
+    height: 400px;
+    background-color: salmon;
+    margin-top: 40px;
+    margin: 30px;
+}
+.Gallary p{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+
+}
+.row{
+    margin-right: 100px;
+}
+
+.footer{
+    height: 400px;
+    background-color: black;
+}
+.footer p{
+   color: gray;
+   padding-left: 0px;
+   padding-top: 10px;
+   
+}
+.footer h2{
+   color: gray;
+  padding-top: 10px;
+  text-align: center;
+}
+
