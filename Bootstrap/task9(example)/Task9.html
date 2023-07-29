@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/4669dfa340.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Task9</title>
+    <style>
+
+        #demo button{
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        }
+         button{
+        border-radius: 50%;
+        width: 12px;
+        height: 12px;
+        }
+        hr {
+        width: 20%;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        .light{
+            background-color: rgb(255, 255, 255);
+        }
+        iframe{
+            width: 450px;
+            height: 280px;
+        }
+        .fa {
+            padding: 20px;
+            font-size: 30px;
+            width: 30px;
+            text-align: center;
+            text-decoration: none;
+            margin: 5px 3px;
+            border-radius: 50%;
+            }
+
+        .fa:hover {
+            opacity: 0.7;
+        }
+        .fa-facebook .fa-instagram .fa-twitter .fa-linkedin .fa-skype{
+            background: green;
+            color:white;
+            }
+    </style>
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row bg-light">
+            <div class="col-md-6 text-dark ps-4 p-2"><i class="fa-solid fa-envelope pe-2"></i>info@healthclick.in.net</div>
+            <div class="col-md-6 text-end pe-5 p-2">
+                <i class="fa-solid fa-phone"></i>
+                8766014120,8766031865
+            </div>
+            <div class="col-md-4 light">
+                <img src="../img/logo.jpg" alt="logo" height="130px" width="100px">
+            </div>
+            <div class="col-md-8 light">
+                <ul class="nav nav-pills justify-content-end pe-3 fw-bold text-center py-md-5">
+                    <li class="nav-item">
+                      <a class="nav-link text-success" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link text-dark" href="#" >About Us</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Labs</a>
+                      <ul class="dropdown-menu">
+                        <li><a class="dropdown-item text-dark" href="#">Lab 1</a></li>
+                        <li><a class="dropdown-item" href="#">Lab 2</a></li>
+                        <li><a class="dropdown-item" href="#">Lab 3</a></li>
+                      </ul>
+                    </li>
+                    <li class="nav-item text-center justify-content-center">
+                        <a class="nav-link text-dark" href="#">Book Test</a>
+                      </li>
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown" href="#">Oppertunities</a>
+                        <ul class="dropdown-menu">
+                          <li><a class="dropdown-item text-dark" href="#">Oppertunitie 1</a></li>
+                          <li><a class="dropdown-item" href="#">Oppertunitie 2</a></li>
+                          <li><a class="dropdown-item" href="#">Oppertunitie 3</a></li>
+                        </ul>
+                      </li>
+                      <li class="nav-item">
+                        <a class="nav-link text-dark" href="#">Contact Us</a>
+                      </li>
+                  </ul>
+            </div>
+            <div id="demo" class="col-md-12 carousel slide light" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+                </div>
+                    <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="../img/health 1.jpg " alt="Los Angeles" class="d-block" style="width:100%" height="400px">
+                        <div class="carousel-caption">
+                        <h3 class="fs-1 fw-bold">Automation</h3>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi illum sunt saepe animi adipisci quisquam maxime quo itaque molestias, ratione non facere exercitationem repellat at.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/health 2.jpg " alt="Chicago" class="d-block" style="width:100%" height="400px">
+                        <div class="carousel-caption">
+                        <h3 class="fs-1 fw-bold">Vitamins</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta quasi cupiditate accusantium sit, id, harum ad at doloremque ea quod libero modi rem dolore labore!</p>
+                        </div> 
+                    </div>
+                    <div class="carousel-item">
+                        <img src="../img/health 3.jpg " alt="New York" class="d-block" style="width:100%" height="400px">
+                        <div class="carousel-caption">
+                        <h3 class="fs-1 fw-bold text-secondary">Health</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aut repudiandae aliquam vitae vero, veniam dolorum ex. Nulla illo hic, cupiditate fugit nam molestias quidem ducimus.</p>
+                        </div>  
+                    </div>
+                    </div>
+                    
+                    <!-- Left and right controls/icons -->
+                    <li class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon"></span>
+                    </li>
+                    <li class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+                    <span class="carousel-control-next-icon"></span>
+            </div>
+            <div class="col-md-12 text-center mt-4 light">
+                <span class=" text-dark text-uppercase  fw-bold fs-2" >About us</span>
+                <hr>
+            </div>
+            <div class="col-md-12 text-secondary px-5 mb-4 light" id="aboutus">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, recusandae ad aperiam in, exercitationem, odio rem inventore dicta <br> iusto nemo tempora non natus aut ab deleniti harum! Quae incidunt expedita soluta sequi aspernatur, dicta necessitatibus delectus tempore iusto facere possimus ea repudiandae consectetur? Nisi aliquam, provident inventore debitis repudiandae in! Quidem deleniti, accusamus nesciunt quis voluptate aut distinctio, deserunt, rerum quia fugit sunt! Ipsam reiciendis quam, expedita numquam fuga necessitatibus aperiam porro. Deleniti quos quae assumenda facere tempore natus ea dicta,<br> quas aperiam dolor eveniet sit recusandae. Ratione voluptates accusamus ex necessitatibus placeat libero,<br> officiis iusto! Delectus numquam deleniti error expedita voluptatum atque sapiente sit et, consequuntur ratione neque, sunt enim quod veritatis blanditiis omnis incidunt asperiores quaerat molestiae, totam repellendus assumenda amet deserunt architecto. Officia, ipsum. Ea, veritatis laborum temporibus qui quidem voluptatum excepturi illum, praesentium aliquid voluptates exercitationem! Nesciunt expedita voluptatum sequi ex mollitia incidunt officiis obcaecati eveniet maxime eos cumque cum accusamus laudantium, ipsum perferendis fuga sunt alias a officia sint non nemo maiores quia voluptatem! Assumenda officiis <br> recusandae cum quam, consectetur quas similique obcaecati, libero iusto odio quisquam officia, quasi aperiam nesciunt dolorem. Dignissimos officiis saepe nesciunt placeat, explicabo eos facere totam id ut obcaecati nihil corrupti, temporibus in dolor. Eaque reiciendis laboriosam, nisi et, provident officiis earum architecto quasi doloribus consequatur beatae commodi debitis ipsum amet optio officia. Ducimus, incidunt voluptatem laborum dolores dolorem minus esse dolorum maxime doloribus cumque odit! Perferendis <br> voluptatum corporis omnis dolore quibusdam enim non minima asperiores ut minus dicta tempore officiis deleniti quasi voluptas dolor inventore, eveniet illo totam! At consequuntur nostrum minus.
+            </div>
+            <div class="col-md-4  pt-5 ps-5">
+                <i class="fa-solid fa-desktop fs-2 text-success"></i>
+                <h4 class="text-dark text-uppercase fw-bold">Unicque concept</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur eaque, voluptates officia ut nam suscipit recusandae voluptate neque itaque necessitatibus consequuntur nulla veritatis mollitia non laborum illo repudiandae veniam numquam? Beatae recusandae iste earum.</p>
+            </div>
+            <div class="col-md-4  pt-5 ps-5">
+                <i class="fa-solid fa-image fs-2 text-success"></i>
+                <h4 class="text-dark text-uppercase fw-bold">Unicque Focus</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur eaque, voluptates officia ut nam suscipit recusandae voluptate neque itaque necessitatibus consequuntur nulla veritatis mollitia non laborum illo repudiandae veniam numquam? Beatae recusandae iste earum.</p>
+            </div>
+            <div class="col-md-4  pt-5 ps-5">
+                <i class="fa-solid fa-clipboard fs-2 text-success"></i>
+                <h4 class="text-dark text-uppercase fw-bold">Unicque Operations</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et aspernatur eaque, voluptates officia ut nam suscipit recusandae voluptate neque itaque necessitatibus consequuntur nulla veritatis mollitia non laborum illo repudiandae veniam numquam? Beatae recusandae iste earum.</p>
+            </div>
+            <div class="col-md-12 text-center mt-4 ">
+                <span class=" text-dark text-uppercase  fw-bold fs-2 ">About lab</span>
+                <hr>
+            </div>
+            <div class="col-md-12 text-secondary px-5 mb-4 ">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, recusandae ad aperiam in, exercitationem, odio rem inventore dicta <br> iusto nemo tempora non natus aut ab deleniti harum! Quae incidunt expedita soluta sequi aspernatur, dicta necessitatibus delectus tempore iusto facere possimus ea repudiandae consectetur? Nisi aliquam, provident inventore debitis repudiandae in! Quidem deleniti, accusamus nesciunt quis voluptate aut distinctio, deserunt, rerum quia fugit sunt! Ipsam reiciendis quam, expedita numquam fuga necessitatibus aperiam porro. Deleniti quos quae assumenda facere tempore natus ea dicta,<br> quas aperiam dolor eveniet sit recusandae. Ratione voluptates accusamus ex necessitatibus placeat libero,<br> officiis iusto! Delectus numquam deleniti error expedita voluptatum atque sapiente sit et, consequuntur ratione neque, sunt enim quod veritatis blanditiis omnis incidunt asperiores quaerat molestiae, totam repellendus assumenda amet deserunt architecto. Officia, ipsum. Ea, veritatis laborum temporibus qui quidem voluptatum excepturi illum, praesentium aliquid voluptates exercitationem! Nesciunt expedita voluptatum sequi ex mollitia incidunt officiis obcaecati eveniet maxime eos cumque cum accusamus laudantium, ipsum perferendis fuga sunt alias a officia sint non nemo maiores quia voluptatem! Assumenda officiis.
+            </div>
+            <div class="col-md-12 text-center mt-4 ">
+                <span class=" text-dark text-uppercase  fw-bold fs-2 ">Quality</span>
+                <hr>
+            </div>
+            <div class="col-md-12 text-secondary px-5 mb-4 ">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, recusandae ad aperiam in, exercitationem, odio rem inventore dicta <br> iusto nemo tempora non natus aut ab deleniti harum! Quae incidunt expedita soluta sequi aspernatur, dicta necessitatibus delectus tempore iusto facere possimus ea repudiandae consectetur? Nisi aliquam, provident inventore debitis repudiandae in! Quidem deleniti, accusamus nesciunt quis voluptate aut distinctio, deserunt, rerum quia fugit sunt! Ipsam reiciendis quam, expedita numquam fuga necessitatibus aperiam porro. Deleniti quos quae assumenda facere tempore natus ea dicta,<br> quas aperiam dolor eveniet sit recusandae. Ratione voluptates accusamus ex necessitatibus placeat libero,<br> officiis iusto! Delectus numquam deleniti error expedita voluptatum atque sapiente sit et, consequuntur ratione neque, sunt enim quod veritatis blanditiis omnis incidunt asperiores quaerat molestiae, totam repellendus assumenda amet deserunt architecto. Officia, ipsum. Ea, veritatis laborum temporibus qui quidem voluptatum excepturi illum, praesentium aliquid voluptates exercitationem! Nesciunt expedita voluptatum sequi ex mollitia incidunt officiis obcaecati eveniet maxime eos cumque cum accusamus laudantium, ipsum perferendis fuga sunt alias a officia sint non nemo maiores quia voluptatem! Assumenda officiis.
+            </div>
+            <div class="col-md-12 text-center mt-4 ">
+                <span class=" text-dark text-uppercase  fw-bold fs-2 ">Technologies</span>
+                <hr>
+            </div>
+            <div class="col-md-12 text-secondary px-5 mb-4 ">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, recusandae ad aperiam in, exercitationem, odio rem inventore dicta <br> iusto nemo tempora non natus aut ab deleniti harum! Quae incidunt expedita soluta sequi aspernatur, dicta necessitatibus delectus tempore iusto facere possimus ea repudiandae consectetur? Nisi aliquam, provident inventore debitis repudiandae in! Quidem deleniti, accusamus nesciunt quis voluptate aut distinctio, deserunt, rerum quia fugit sunt! Ipsam reiciendis quam, expedita numquam fuga necessitatibus aperiam porro. Deleniti quos quae assumenda facere tempore natus ea dicta,<br> quas aperiam dolor eveniet sit recusandae. Ratione voluptates accusamus ex necessitatibus placeat libero,<br> officiis iusto! Delectus numquam deleniti error expedita voluptatum atque sapiente sit et, consequuntur ratione neque, sunt enim quod veritatis blanditiis omnis incidunt asperiores quaerat molestiae, totam repellendus assumenda amet deserunt architecto. Officia, ipsum. Ea, veritatis laborum temporibus qui quidem voluptatum excepturi illum, praesentium aliquid voluptates exercitationem! Nesciunt expedita voluptatum sequi ex mollitia incidunt officiis obcaecati eveniet maxime eos cumque cum accusamus laudantium, ipsum perferendis fuga sunt alias a officia sint non nemo maiores quia voluptatem! Assumenda officiis.
+            </div>
+            <div class="col-md-12 text-center mt-4 ">
+                <span class=" text-dark text-uppercase  fw-bold fs-2 ">Instruments</span>
+                <hr>
+            </div>
+            <div class="col-md-12 text-center light">
+                <img src="../img/kt.jpg" alt="" width="100%">
+                <button class="bg-success border-0" type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+                <button class="bg-secondary border-0" type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+            </div>
+            <div class="col-md-12 text-center mt-4 ">
+                <span class=" text-dark text-uppercase  fw-bold fs-2 ">Career</span>
+                <hr>
+            </div>
+            <div class="col-md-12 text-secondary px-5 mb-4 ">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ea, recusandae ad aperiam in, exercitationem, odio rem inventore dicta <br> iusto nemo tempora non natus aut ab deleniti harum! Quae incidunt expedita soluta sequi aspernatur, dicta necessitatibus delectus tempore iusto facere possimus ea repudiandae consectetur? Nisi aliquam, provident inventore debitis repudiandae in! Quidem deleniti, accusamus nesciunt quis voluptate aut distinctio, deserunt, rerum quia fugit sunt! Ipsam reiciendis quam, expedita numquam fuga necessitatibus aperiam porro. Deleniti quos quae assumenda facere tempore natus ea dicta,<br> quas aperiam dolor eveniet sit recusandae. Ratione voluptates accusamus ex necessitatibus placeat libero,<br> officiis iusto! Delectus numquam deleniti error expedita voluptatum atque sapiente sit et, consequuntur ratione neque, sunt enim quod veritatis blanditiis omnis incidunt asperiores quaerat molestiae, totam repellendus assumenda amet deserunt architecto. Officia, ipsum. Ea, veritatis laborum temporibus qui quidem voluptatum excepturi illum, praesentium aliquid voluptates exercitationem! Nesciunt expedita voluptatum sequi ex mollitia incidunt officiis obcaecati eveniet maxime eos cumque cum accusamus laudantium, ipsum perferendis fuga sunt alias a officia sint non nemo maiores quia voluptatem! Assumenda officiis.
+            </div>
+            <div class="col-md-12 text-center mt-4 ">
+                <span class=" text-dark text-uppercase  fw-bold fs-2 ">Contact</span>
+                <hr>
+            </div>
+            <div class="col-md-4  light m-3 ms-5 py-4 shadow p-3 mb-5 bg-body rounded shadow p-3 mb-5 bg-body rounded">
+                <i class="fa-solid fa-location-dot  text-success fs-2"></i>
+                <h4 class="fw-bold">Location:</h4>
+                <p>Reg.Lab:423,"Tanakuti",Opp.Ishwar Deshmukh College,Krida Square,Nagpur-440024</p>
+                <br>
+                <i class="fa-solid fa-envelope text-success fs-2"></i>
+                <h4 class="fw-bold">Email:</h4>
+                <p>info@healthclick.in.net</p>
+                <br>
+                <i class="fa-solid fa-phone text-success fs-2"></i>
+                <h4 class="fw-bold">Call:</h4>
+                <p>8766014120,8766031865</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3721.592053853262!2d79.10339411501435!3d21.128824185944246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bd4c0ac748ec02b%3A0x9e5792b49b7e29ab!2sIshwar%20Deshmukh%20College%20of%20Physical%20Education!5e0!3m2!1sen!2sin!4v1665396742160!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            </div>
+            <div class="col-md-7 light m-3 py-4 shadow p-3 mb-5 bg-body rounded shadow p-3 mb-5 bg-body rounded">
+                <form class="row">
+                    <div class="col-md-6">
+                      <label for="inputEmail4" class="form-label">Your Name</label>
+                      <input type="text" class="form-control" id="inputEmail4">
+                    </div>
+                    <div class="col-md-6">
+                      <label for="inputPassword4" class="form-label">Your Email</label>
+                      <input type="email" class="form-control" id="inputPassword4">
+                    </div>
+                    <div class="col-md-12 mt-2">
+                        <label for="inputsubject" class="form-label">Subject</label>
+                        <input type="text" class="form-control" id="inputsubject">
+                    </div>
+                    <div class="col-md-12 mt-2">
+                        <label for="inputmsg" class="form-label">Message</label>
+                        <textarea class="form-control" rows="18" id="inputmsg" name="text"></textarea>
+                    </div>
+                    <div class="col-md-12 mt-4 text-center">
+                        <button type="submit" class="btn btn-success h-100 w-25">Send Message</button>
+                      </div>
+                </form>
+            </div>
+            <div class="col-md-12 bg-dark text-center">
+                <h1 class="fs-2 fw-bold text-white pt-3 ps-2">Health Click</h1>
+            </div>
+            <div class="col-md-12 text-center bg-dark">
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-skype"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+            </div>
+            <div class="col-md-12 text-center bg-dark">
+                <p class="text-white">&#169; Copyright <span class="fw-bold">Health Click.</span>All Rights Reserved</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
