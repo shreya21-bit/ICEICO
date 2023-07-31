@@ -1,0 +1,214 @@
+.initial{
+    background-color: rgb(210, 201, 201);
+
+  }
+.vertical {
+    border-left: 2px solid #130c69;;
+    height: 30px;
+    position:absolute;
+    left: 49%;
+  }
+.vertical1 {
+    border-left: 2px solid #130c69;;
+    height: 30px;
+    position:absolute;
+    left: 50%;
+}
+
+.inner-container {
+    background-color: #e18b1d;
+    margin-bottom: -120px;
+    position: relative;
+    z-index: 20;
+}
+.inner-container .content-wrapper {
+    width: 100%;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 110px;
+    padding-bottom: 120px;
+}
+.contact-form .row {
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.contact-form .row [class*=col-] {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    display: block;
+    border: none;
+    outline: none;
+    color: #7B7F85;
+    font-size: 16px;
+    height: 79px;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+.contact-form .submit-btn-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+.contact-form textarea {
+    height: 190px;
+    padding-top: 20px;
+}
+.contact-form .submit-btn-block .thm-btn {
+    background-color: #18212E;
+    padding: 20px;
+    color: beige;
+}
+.main-footer{
+    background-color:#18212E; 
+}
+.footer-one {
+    padding-bottom: 100px;
+    padding-top: 220px;
+    border-bottom: 1px solid #242F3E;
+  }
+.footer-one .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.footer-one .button-block {
+    position: relative;
+  }
+.footer-one .button-block .btn-tagline {
+    color: #FFFFFF;
+    font-family: "Gloria Hallelujah";
+    position: absolute;
+    bottom: -42px;
+    left: -50%;
+}
+.button-block .thm-btn {
+    background-color: #e18b1d;
+    padding: 20px;
+    color: beige;
+}
+
+.footer-one {
+    margin-top: 10px;
+    padding-top: 120px;
+}
+.footer-one .social-block a {
+    display: inline-block;
+    vertical-align: middle;
+    width: 59px;
+    height: 59px;
+    border-radius: 50%;
+    background-color: #242e3c;
+    text-align: center;
+    line-height: 59px;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 18px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+.footer-one .social-block a:hover {
+    background-color: #e18b1d;
+  }
+.footer-one .social-block a + a {
+    margin-left: 7px;
+}
+.footer-two{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.footer-two p {
+    margin: 0;
+    color: #B3BBC6;
+    font-size: 16px;
+  }
+.footer-two p a {
+    color: #FFFFFF;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+.footer-two p a:hover {
+    color: #e18b1d;
+  }
+
+
+.footer-tool ul,
+.footer-tool p,
+.footer-tool h3 {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.footer-tool p {
+    color: #B3BBC6;
+    font-size: 16px;
+    line-height: 30px;
+  }
+.footer-tool a {
+    color: #B3BBC6;
+    font-size: 16px;
+    -webkit-transition: all .4s ease;
+    transition: all .4s ease;
+  }
+.footer-tool a:hover {
+    color: #e18b1d;
+  }
+.footer-tool .footer-logo {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 37px;
+}
+.footer-tool .tool-title {
+    margin-bottom: 37px;
+  }
+.footer-tool .tool-title h3 {
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 600;
+}
+.footer-tool .links-list li + li {
+    margin-top: 4px;
+}
+.footer-tool.explore-tool {
+    padding-left: 70px;
+}
+.footer-tool.legal-tool {
+    padding-left: 12px;
+}
+.footer-tool.contact-tool {
+    padding-left: 38px;
+}
+.footer-tool.contact-tool .tool-title {
+    margin-bottom: 6px;
+  }
+.footer-tool.contact-tool .tool-title h3 {
+    font-size: 16px;
+  }
+.footer-tool.contact-tool p {
+    color: #e18b1d;
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 600;
+    font-weight: 600;
+  }
+.footer-tool.contact-tool p strong {
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    display: block;
+    margin-top: -4px;
+  }
+.footer-tool.contact-tool p + p {
+    margin-top: 17px;
+  }
