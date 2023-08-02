@@ -1,0 +1,21 @@
+body {
+    font-style: normal;
+    line-height: 1.5;
+    font-weight: 400;
+}
+.menu-one{
+    background-color: crimson;
+}
+.menu-two{
+    background-color: crimson;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.figure{
+    width: 100%;
+}
