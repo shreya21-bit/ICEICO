@@ -2,20 +2,51 @@ body {
     font-style: normal;
     line-height: 1.5;
     font-weight: 400;
+    margin: 20px;
+   
 }
 .menu-one{
     background-color: crimson;
+    height: 850px;
+    position: relative;
+    width: 100%;
 }
-.menu-two{
-    background-color: crimson;
+.title-align {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
 }
+.title-align::after{
+    content: "";
+    height: 2px;
+    background-color: orange;
+    display: block;
+}
+
 .container {
     width: 100%;
     padding-right: 15px;
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    position: relative;
 }
-.figure{
-    width: 100%;
+.pizza{
+    margin-top: -30px;
+}
+.pizza img{ 
+    position: absolute;
+    width: 350px;
+    height: 300px;
+}
+.price-title{
+    margin-right: 490px;
+    margin-left: 20px;
+    border-radius: 100%;
+    background-color: orange;
+    
+}
+.pricebox{
+    text-align: center;
+    padding: 10px;
 }
