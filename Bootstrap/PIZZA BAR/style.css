@@ -1,3 +1,4 @@
+
 body {
     font-style: normal;
     line-height: 1.5;
@@ -49,4 +50,61 @@ body {
 .pricebox{
     text-align: center;
     padding: 10px;
+}
+.price{
+    
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: orange;
+}
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    
+}
+.new-combo .container .row {
+    display: -webkit-flex;
+    -webkit-flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: -15px;
+    margin-left: -15px;
+    
+}
+.direct-btn{
+    margin-left: -0.25rem;
+    margin-right: -0.25rem;
+    font-size: 0;
+}
+.my-icon{
+    font-size: 50px;
+    color: red;
+}
+.icon-wrap {
+    text-align: left;
+    margin: auto;
+    padding-left: 0rem;
+    margin-bottom: 2rem;
+    width: 100%;
+    
+}
+.icon-col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.icon-col .icon-wrap{
+   line-height: 3em;
+}
+
+.figure{
+    align-self: center;
+}
+.img-col{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
